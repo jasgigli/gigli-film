@@ -1,0 +1,57 @@
+{
+  "name": "gigli-movie",
+  "version": "1.0.0",
+  "description": "Gigli Movie - A modern movie browsing web app built with Next.js and Tailwind CSS, featuring trending films, watchlists, and PWA support.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "keywords": [
+    "next.js",
+    "movies",
+    "movie-browser",
+    "pwa",
+    "react",
+    "tailwindcss",
+    "frontend",
+    "webapp",
+    "trending-movies",
+    "watchlist",
+    "modern-design",
+    "progressive-web-app",
+    "react-icons",
+    "react-toastify"
+  ],
+  "homepage": "https://github.com/jasgigli/gigli-movie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasgigli/gigli-movie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasgigli/gigli-movie/issues"
+  },
+  "author": "Junaid Ali Shah <overview.jjj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "next": "^15.0.3",
+    "next-pwa": "^5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.0.3",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.1"
+  }
+}
